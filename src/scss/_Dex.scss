@@ -1,0 +1,22 @@
+.Dex {
+  display: flex;
+  align-items: flex-end;
+  opacity: 0.3;
+
+  // -- start/select buttons for left and right pages
+
+  .startselect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+
+    .bttn {
+      width: 55px;
+      height: 10px;
+      border-radius: 4px;
+      box-shadow: 0 0 3px $black;
+      background: $vuegreendark;
+    }
+  }
+}

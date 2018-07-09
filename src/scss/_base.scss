@@ -1,0 +1,11 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  @include flx_cc();
+  background: $black;
+  color: $white;
+}

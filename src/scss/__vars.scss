@@ -1,21 +1,28 @@
-$white: rgb(240, 240, 240);
+$white: rgb(220, 220, 220);
 $black: rgb(20, 20, 20);
-$greylite: rgb(153, 153, 153);
+$greylite: rgb(125, 119, 119);
 $grey: rgb(68, 68, 68);
 $vuegreen: rgb(65, 184, 131);
 $vueblue: rgb(53, 73, 94);
 $vuegreendark: darken($vuegreen, 20%);
 $vuegreenshadow: darken($vuegreen, 30%);
+$dexred: rgb(193, 37, 37);
+$dexyellow: rgb(189, 173, 50);
+$dexgreen: rgb(0, 231, 128);
 
 // -- COLOR MAP -- //
 $color: $white;
 $bg: $black;
 $dexbg: $vuegreen;
 $dexbgdark: $vuegreendark;
+$dexbgalt: $vueblue;
+$displayouter: $greylite;
 
 // -- GRADIENTS -- //
 $hingebg: linear-gradient(to right, $vuegreenshadow 0%, $vuegreen 50%, $vuegreenshadow 100%);
 $hng: linear-gradient(to right, rgba(30,11,11,0.5) 0%,rgba(25,71,51,0.5) 50%,rgba(30,11,11,0.5) 100%);
+$bar: linear-gradient($black, $black);
+
 
 // -- SHADOWS -- //
 $shadow: -5px 5px 0 5px $vuegreenshadow;
